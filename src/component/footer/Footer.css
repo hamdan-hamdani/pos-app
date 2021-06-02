@@ -1,0 +1,58 @@
+.footer {
+  background-color: #727171;
+  padding-top: 3em;
+  box-sizing: border-box;
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.layanan-footer ul li {
+  list-style-type: disc;
+}
+
+.media-sosial span {
+  margin-right: 1em;
+  color: #1b1717;
+}
+
+.logo-footer {
+  width: 1em;
+  min-width: 172px;
+  background-color: #ce1212;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+.copyright {
+  background-color: #1b1717;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* mobile */
+@media only screen and (max-width: 576px) {
+  .footer {
+    padding-top: 1em;
+    font-size: 1em;
+  }
+
+  .box-logo {
+    display: none;
+  }
+
+  .copyright {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+  }
+}

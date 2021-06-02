@@ -1,0 +1,41 @@
+.primaryInput {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding-left: 0.5em;
+}
+
+.secondaryInput {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #1b1717;
+  padding-left: 0.5em;
+}
+
+.inputQty {
+  width: 100%;
+  background-color: #ce1212;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+}
+
+/*support google chrome*/
+.inputQty::-webkit-input-placeholder {
+  color: #fff;
+}
+
+/*support mozilla*/
+.inputQty:-moz-input-placeholder {
+  color: #fff;
+}
+
+/*support internet explorer*/
+.inputQty:-ms-input-placeholder {
+  color: #fff;
+}
+
+.inputAddCard {
+  width: 100%;
+  text-align: center;
+}

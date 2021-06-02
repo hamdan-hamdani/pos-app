@@ -1,0 +1,54 @@
+.containerCustom {
+  display: grid;
+  grid-template-areas: "asideProduk itemProduk";
+  grid-template-columns: minmax(180px, 1fr) 2fr;
+}
+
+.asideProduk {
+  grid-area: asideProduk;
+  display: flex;
+  justify-content: center;
+}
+
+.boxImage {
+  width: 20vw;
+  height: 20vw;
+  min-width: 157px;
+  min-height: 157px;
+}
+
+.boxImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.itemProduk {
+  grid-area: itemProduk;
+  padding: 1em;
+}
+
+.containerQty {
+  display: flex;
+  align-items: center;
+}
+
+.span {
+  margin-left: 1em;
+}
+
+.textarea {
+  width: 100%;
+  height: 155px;
+  border-radius: 3px;
+}
+
+.boxButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerButton {
+  width: 189px;
+}

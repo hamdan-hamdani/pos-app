@@ -1,0 +1,8 @@
+.containerCustom {
+  display: grid;
+  grid-template-areas:
+    "sideMenu header "
+    "sideMenu card";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.5fr 2fr;
+}

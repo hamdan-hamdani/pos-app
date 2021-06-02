@@ -1,0 +1,14 @@
+.containerCustom {
+  display: flex;
+  max-width: 79px;
+  min-width: 50px;
+  background-color: #ce1212;
+  color: #fff;
+}
+
+.minus,
+.plus {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 1px solid #fff;
+}

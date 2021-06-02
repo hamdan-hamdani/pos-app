@@ -1,0 +1,76 @@
+.containerCustom {
+  display: grid;
+  grid-template-areas:
+    "sideMenu header "
+    "sideMenu card";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.36fr 2fr;
+}
+
+.header {
+  grid-area: header;
+}
+
+.boxSearch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding-right: 1em;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.boxInputIcon {
+  position: relative;
+  width: 180px;
+}
+
+.inpSearch {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  padding-left: 16px;
+  background-color: rgb(209, 209, 209);
+  vertical-align: middle;
+}
+
+.boxSearchIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+
+.boxSearchIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.deskripsi {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+}
+
+.boxImage {
+  width: 150px;
+  height: 150px;
+}
+
+.boxImage img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 849px) {
+  .containerCustom {
+    grid-template-rows: 0.2fr 2fr;
+  }
+}

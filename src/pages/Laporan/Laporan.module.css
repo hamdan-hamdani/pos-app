@@ -1,0 +1,86 @@
+.containerCustom {
+  /* display: grid;
+  grid-template-areas:
+    "sideMenu header "
+    "sideMenu card"
+    "sideMenu addCard";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.5fr 2fr; */
+  display: grid;
+  grid-template-areas:
+    "sideMenu header "
+    "sideMenu card";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 0.8fr 2fr;
+}
+
+.header {
+  grid-area: header;
+}
+
+.card {
+  grid-area: card;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.containerCardCustom {
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.headerCard {
+  background: #ce1212;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.konten {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headerKonten {
+  font-weight: bold;
+}
+
+.total {
+  display: flex;
+}
+
+.total p {
+  flex: 1;
+  text-align: right;
+}
+
+.total p.totalBayar {
+  flex: 2;
+}
+
+.addCard {
+  grid-area: addCard;
+  display: flex;
+  padding-left: 1em;
+  align-items: center;
+}
+
+.addCard div {
+  width: 40px;
+}
+
+.addCard span {
+  margin-left: 1em;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+}
+
+/* mobile */
+@media only screen and (max-width: 576px) {
+}

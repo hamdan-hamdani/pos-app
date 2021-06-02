@@ -1,0 +1,40 @@
+.h1 {
+  text-align: center;
+}
+
+.customContainer {
+  width: 25%;
+  min-width: 310px;
+  border-radius: 10px;
+  background-color: #ce1212;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.emailSalah {
+  display: block;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.emailBenar {
+  display: none;
+}
+
+.boxButton {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.span {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* mobile */
+@media only screen and (max-width: 576px) {
+  .customContainer {
+    width: 90%;
+  }
+}

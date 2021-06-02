@@ -1,0 +1,88 @@
+.sideMenu {
+  grid-area: sideMenu;
+  width: 20vw;
+  min-width: 200px;
+  padding: 1em;
+  padding-top: 0;
+  box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.25);
+}
+
+.listMenu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listMenu span {
+  padding-left: 1em;
+  flex: auto;
+}
+
+.boxListMenu {
+  width: 40px;
+  height: 40px;
+}
+
+.boxListMenu img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dropdownProduk,
+.dropdownLaporan {
+  background-color: #ce1212;
+  padding: 0;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  box-sizing: border-box;
+  display: none;
+  min-width: 145px;
+  position: relative;
+}
+
+/* .iconDropdown {
+  margin-left: 3em;
+} */
+
+.dropdownProdukActiv,
+.dropdownLaporanActiv {
+  display: block;
+}
+
+.sideMenu ul {
+  padding: 0;
+}
+
+.sideMenu ul li {
+  padding-left: 1em;
+  cursor: pointer;
+}
+
+.sideMenu ul li:hover {
+  background-color: #810000;
+}
+
+.popUp {
+  display: none;
+}
+
+.setPopUpActiv {
+  display: block;
+}
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .listMenu span,
+  .listMenu svg {
+    display: none;
+  }
+
+  .sideMenu {
+    min-width: 80px;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 576px) {
+}
